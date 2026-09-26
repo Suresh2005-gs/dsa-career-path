@@ -25,7 +25,7 @@ def login(db: Session = Depends(get_db)):
 def demo_login(db: Session = Depends(get_db)):
     """
     Hackathon Demo Mode:
-    Logs in as Suresh Kumar with pre-populated progress, 4/9 Sliding Window problems,
+    Logs in as Suresh G with pre-populated progress, 4/9 Sliding Window problems,
     7-day streak, 80% pattern recognition accuracy.
     """
     user = db.query(User).first()

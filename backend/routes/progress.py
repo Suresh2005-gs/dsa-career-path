@@ -10,7 +10,7 @@ def get_dashboard_data(db: Session = Depends(get_db)):
     user = db.query(User).first()
     if not user:
         # Fallback default
-        user_name = "Suresh Kumar"
+        user_name = "Suresh G"
         streak = 7
         recog_score = 80.0
     else:
@@ -31,7 +31,7 @@ def get_dashboard_data(db: Session = Depends(get_db)):
     return {
         "user": {
             "name": user_name,
-            "target_role": user.target_role if user else "Software Development Engineer (SDE-1)",
+            "target_role": user.target_role if user else "AI Engineer",
             "target_company": user.target_company if user else "Google"
         },
         "stats": {

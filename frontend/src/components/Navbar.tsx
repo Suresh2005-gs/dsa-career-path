@@ -85,7 +85,7 @@ export const Navbar: React.FC<Props> = ({ user, onOpenMobileMenu, onNavigate, on
               {user?.name ? user.name[0] : 'S'}
             </div>
             <div className="text-left hidden lg:block">
-              <div className="text-xs font-medium text-white leading-none">{user?.name || 'Suresh Kumar'}</div>
+              <div className="text-xs font-medium text-white leading-none">{user?.name || 'Suresh G'}</div>
               <div className="text-[10px] text-slate-400 leading-tight mt-0.5">7-Day Streak 🔥</div>
             </div>
           </div>

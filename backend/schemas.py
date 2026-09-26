@@ -6,7 +6,7 @@ import datetime
 class UserBase(BaseModel):
     name: str
     email: str
-    target_role: Optional[str] = "Software Development Engineer"
+    target_role: Optional[str] = "AI Engineer"
     target_company: Optional[str] = "Google"
 
 class UserCreate(UserBase):

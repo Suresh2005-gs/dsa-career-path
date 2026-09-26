@@ -7,9 +7,9 @@ class User(Base):
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(100), default="Suresh Kumar")
+    name = Column(String(100), default="Suresh G")
     email = Column(String(100), unique=True, index=True)
-    target_role = Column(String(100), default="Software Development Engineer (SDE-1)")
+    target_role = Column(String(100), default="AI Engineer")
     target_company = Column(String(100), default="Google")
     current_streak = Column(Integer, default=7)
     recognition_score = Column(Float, default=80.0) # percentage or points

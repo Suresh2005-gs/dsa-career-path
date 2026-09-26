@@ -38,9 +38,9 @@ export function App() {
         // Fallback default demo user
         setUser({
           id: 1,
-          name: 'Suresh Kumar',
+          name: 'Suresh G',
           email: 'suresh@dsaclearpath.dev',
-          target_role: 'Software Development Engineer (SDE-1)',
+          target_role: 'AI Engineer',
           target_company: 'Google',
           current_streak: 7,
           recognition_score: 80.0,

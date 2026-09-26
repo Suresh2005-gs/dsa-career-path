@@ -17,11 +17,11 @@ def seed_database():
 
     print("Seeding DSA Clear Path database...")
 
-    # 1. Create Default User (Suresh Kumar)
+    # 1. Create Default User (Suresh G)
     user = User(
-        name="Suresh Kumar",
+        name="Suresh G",
         email="suresh@dsaclearpath.dev",
-        target_role="Software Development Engineer (SDE-1)",
+        target_role="AI Engineer",
         target_company="Google",
         current_streak=7,
         recognition_score=80.0,
@@ -634,7 +634,7 @@ def max_sliding_window(nums: list[int], k: int) -> list[int]:
             "name": "Amazon",
             "slug": "amazon",
             "desc": "Strong emphasis on Leadership Principles paired with medium-to-hard coding problems in trees, graphs, heaps, and arrays.",
-            "roles": json.dumps(["Software Development Engineer I (SDE-1)", "SDE-2", "DevOps Engineer"]),
+            "roles": json.dumps(["AI Engineer I (SDE-1)", "SDE-2", "DevOps Engineer"]),
             "focus": json.dumps([
                 {"topic": "Arrays & Two Pointers", "coverage": 85},
                 {"topic": "Trees & BFS", "coverage": 75},

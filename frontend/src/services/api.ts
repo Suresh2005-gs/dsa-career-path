@@ -35,8 +35,8 @@ export const api = {
     }
     return {
       user: {
-        name: 'Suresh Kumar',
-        target_role: 'Software Development Engineer (SDE-1)',
+        name: 'Suresh G',
+        target_role: 'AI Engineer',
         target_company: 'Google'
       },
       stats: {

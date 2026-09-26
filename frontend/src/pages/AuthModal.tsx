@@ -16,7 +16,7 @@ export const AuthModal: React.FC<Props> = ({
   initialMode = 'login'
 }) => {
   const [mode, setMode] = useState<'login' | 'signup'>(initialMode);
-  const [name, setName] = useState('Suresh Kumar');
+  const [name, setName] = useState('Suresh G');
   const [email, setEmail] = useState('suresh@dsaclearpath.dev');
   const [targetCompany, setTargetCompany] = useState('Google');
   const [targetRole, setTargetRole] = useState('Software Engineer');
@@ -35,9 +35,9 @@ export const AuthModal: React.FC<Props> = ({
       // Fallback
       onSuccess({
         id: 1,
-        name: 'Suresh Kumar',
+        name: 'Suresh G',
         email: 'suresh@dsaclearpath.dev',
-        target_role: 'Software Development Engineer (SDE-1)',
+        target_role: 'AI Engineer',
         target_company: 'Google',
         current_streak: 7,
         recognition_score: 80.0
@@ -102,7 +102,7 @@ export const AuthModal: React.FC<Props> = ({
             ⭐ Hackathon Judge Quick Entry
           </span>
           <p className="text-[11px] text-slate-400">
-            Enter with pre-populated progress (Suresh Kumar, 4/9 Sliding Window solved, 7-day streak).
+            Enter with pre-populated progress (Suresh G, 4/9 Sliding Window solved, 7-day streak).
           </p>
           <button
             onClick={handleDemoLogin}
